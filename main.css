@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color:#002843;
+    color: #fff;
+}
+
+section .leomord,
+section .benedetta{
+    width: 1070px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#skin-leo img,
+#skin-bene img {
+    width: 45%;
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section div.skill-bene,
+section .skill-bene {
+    display: flex;
+    align-items: center;
+    width: 40%;
+
+}   

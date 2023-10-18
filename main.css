@@ -5,31 +5,67 @@
 }
 
 header {
-    padding: 16px 0;
-    background-color:#002843;
-    color: #fff;
+    padding: 50px;
+    background-image: linear-gradient(#191E29, #132D42);
+    /*background-color:#132D42;*/
+    color: #848a96;
 }
 
-section .leomord,
-section .benedetta{
-    width: 1070px;
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: #696E79;
+    text-decoration: none;
+}
+
+section{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: linear-gradient(to top, #191E29, #132D42);
+    /*background-color: #191E29;*/
+}
+
+#skin1,
+#skin3 {
+    margin-left: 55%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#skin2,
+#skin4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#skill1,
+#skill3,
+#skill5 {
+    margin-left: 75%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#skill2,
+#skill4 {
+    margin-left: 10%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.skills img {
+    width: 8%;
     display: flex;
-    align-items: center;
-    
 }
 
-#skin-leo img,
-#skin-bene img {
+section .articles img {
     width: 45%;
-    margin-left: 45px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-section div.skill-bene,
-section .skill-bene {
     display: flex;
-    align-items: center;
-    width: 40%;
-
-}   
+}

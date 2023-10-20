@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #0d2232;
+    /*background-color: #191E29;*/
+}
+
 header {
+    font-size: 25px;
     padding: 50px;
-    background-image: linear-gradient(#191E29, #132D42);
+    background-image: linear-gradient(#000000, #0d2232);
     /*background-color:#132D42;*/
     color: #848a96;
 }
@@ -25,15 +31,38 @@ header nav li a {
 section{
     width: 1280px;
     margin: 0 auto;
+    
 }
 
-body {
-    background-image: linear-gradient(to top, #191E29, #132D42);
-    /*background-color: #191E29;*/
+.articles {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1028px;
+    width: 100%;
+    
 }
+
+section .title {
+    text-decoration: underline;
+    color: #696E79;
+    width: 1280px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    /*width: 30%;
+    padding: 20px;
+    background-image: linear-gradient(#0d2232, #091722, #0d2232);*/
+}
+
 
 #skin1,
 #skin3 {
+    
     margin-left: 55%;
     margin-top: 40px;
     margin-bottom: 40px;

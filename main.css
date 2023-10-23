@@ -38,7 +38,7 @@ section{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1028px;
     width: 100%;
     
@@ -61,9 +61,8 @@ section .title {
 
 
 #skin1,
-#skin3 {
-    
-    margin-left: 55%;
+#skin3,
+#skin5 {
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -77,21 +76,16 @@ section .title {
 #skill1,
 #skill3,
 #skill5 {
-    margin-left: 75%;
+    width: 15%;
     margin-top: 35px;
     margin-bottom: 35px;
 }
 
 #skill2,
 #skill4 {
-    margin-left: 10%;
+    width: 15%;
     margin-top: 35px;
     margin-bottom: 35px;
-}
-
-.skills img {
-    width: 8%;
-    display: flex;
 }
 
 section .articles img {
